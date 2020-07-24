@@ -7,3 +7,11 @@ TCL used in VMD has various vec commands. It did not have a vecdiv (and inverse 
 
 This script needs further clean up!
 
+To build;
+
+	$ tar xf qwrap.tar.gz
+	# update the PLUGINDIR var in Makefile
+	$ make
+	$ make install
+
+*Note*: I have not fixed the load path, it will need to be called from the the local vmd/plugins director
