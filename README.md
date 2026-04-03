@@ -1,3 +1,5 @@
+# Depricated. VMD's TCL does this without an issue now
+
 # VecDiv
 
 ## Now redundant! Curret vector math functions kn VMD support essentially this
